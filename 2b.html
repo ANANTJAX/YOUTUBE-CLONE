@@ -10,9 +10,13 @@
         border-radius: 2px;
         cursor: pointer;
         margin-right: 8px;
+        transition: background-color 0.15s;
     }
 
-    .download-button {
+    .bootstrap-button:hover {
+        background-color: rgb(91, 59, 139);
+    }
+    .download-button {  
         background-color: white;
         color: grey;
         border: solid 1px rgb(108, 117, 125);
@@ -22,8 +26,14 @@
         width: 115px;
         border-radius: 2px;
         cursor: pointer;
+        transition: background-color 0.15s, color 0.15s;
     }
 
+    .download-button:hover {
+        background-color: rgb(118, 128, 136);
+        color: white;
+    }
+    
     .linkedin-button {
         background-color: rgb(10, 102, 194);
         color: white;
@@ -35,8 +45,13 @@
         border-radius: 18px;
         cursor: pointer;
         margin-left: 8px;
+        transition: background-color 0.15s;
     }
 
+    .linkedin-button:hover {
+        background-color: rgb(14, 82, 150);
+    }
+    
     .save-button {
         background-color: white;
         color: rgb(18, 107, 196);
@@ -48,6 +63,12 @@
         border-radius: 18px;
         cursor: pointer;
         margin-left: 8px;
+        transition: background-color 0.15s, border-width 0.05s;
+    }
+
+    .save-button:hover {
+        background-color: rgb(210, 232, 255);
+        border-width: 2px;  
     }
 </style>
 
